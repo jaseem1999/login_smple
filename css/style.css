@@ -1,0 +1,42 @@
+body {
+    background-color: #f1f1f1;
+}
+.card{
+    height: auto;
+    border: 1px solid black;
+    margin-top: 75px;
+    margin-left: 60px;
+}
+.login{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(20, 19, 19);
+}
+.form-control{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    width: 90%;
+    height: 30px;
+}
+.form-label{
+    margin-left: 10px;
+    margin-bottom: 0px;
+}
+.form-text{
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+.btn-primary{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width: 90%;
+}
+.error {
+    color: red;
+    font-size: smaller;
+    position: relative;
+    left: 10px;
+    margin-top: 0px;
+}

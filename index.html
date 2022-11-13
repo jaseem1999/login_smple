@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>login</title>
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css" >
+       
+    </head>
+    <body>
+       <div class="card" style="width: 18rem;">
+              <div >
+                <form name="fo" onsubmit="return uform()" action="../smple/index.html">
+                    <div class="login">
+                        Registeration
+                        <hr/>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputUsername" class="form-label">Username</label>
+                        <input type="text" class="form-control"  name="userN"  id = "userName" placeholder=""> <span id="usn" class="error"></span>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control"  name="mail" id="Email" placeholder=""> <span id="eml" class="error"></span>
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Password</label>
+                        <input type="password" class="form-control"  name="pss" id="Password"/><span id="psw" class="error"> </span>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Re-enter Password</label>
+                        <input type="password" class="form-control"  name="rpass" id="rePassword"><span id="rpsw" class="error"> </span>
+                    </div>
+                    <input type="submit" class="btn btn-primary"  value="login">
+                </form>
+              </div>
+              
+
+              
+       </div>
+    <!-- JavaScript Bundle with Popper -->
+    
+    <script type="text/javascript" src="js/scriptmy.js"></script>
+    </body>
+</html>
