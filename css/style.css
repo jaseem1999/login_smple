@@ -1,17 +1,24 @@
 body {
-    background-color: #f1f1f1;
+    background-image: url('https://wallpaperaccess.com/full/875477.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 .card{
+    background-color: rgb(88 109 59 / 31%);
     height: auto;
-    border: 1px solid black;
-    margin-top: 75px;
+    border: 1px solid #6a5b5b;
+    margin-top: 50px;
     margin-left: 60px;
+    color: floralwhite;
+    box-shadow: 0 0 10px 0 #fff;
 }
 .login{
     text-align: center;
     font-size: 24px;
     font-weight: bold;
-    color: rgb(20, 19, 19);
+    color: white;
 }
 .form-control{
     margin-top: 0px;
@@ -25,6 +32,7 @@ body {
     margin-bottom: 0px;
 }
 .form-text{
+    color: wheat;
     margin-left: 10px;
     margin-bottom: 5px;
 }
